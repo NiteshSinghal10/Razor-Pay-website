@@ -1,0 +1,9 @@
+.f3card{
+    box-shadow: 1px 1px 3px rgb(50, 49, 49);
+    transition: all 0.5s;
+}
+
+
+.f3card:hover {
+    transform: scale(1.025);
+}
