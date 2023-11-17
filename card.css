@@ -1,3 +1,21 @@
+:root{
+    --deepBlue:#02042a;
+    --lightBlue:#2b84ea;
+    --lightBlue300:#4b94ed;
+    --lightBlue500:#0b72e7;
+    --greenLight:#61cea6;
+    --grayText:#818597;
+    --lightGray:#e2e2e2;
+    --grayBlue:#344a6c;
+    --deepBlueHead:#162f56;
+    --gray2:#525a76;
+}
+.temp{
+    background-color: var(deepBlue);
+}
+
+
+
 .f3card{
     box-shadow: 1px 1px 3px rgb(50, 49, 49);
     transition: all 0.5s;
@@ -7,3 +25,18 @@
 .f3card:hover {
     transform: scale(1.025);
 }
+
+.move{
+    animation: movement 6s linear 0s infinite ;
+}
+@keyframes movement{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        left: 0;
+        top: -300px;
+    }
+}
+
